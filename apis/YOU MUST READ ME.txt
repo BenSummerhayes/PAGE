@@ -108,7 +108,7 @@ Windows users:
 …..Sorry but I’ve not had a chance to get all this set up and tested on a windows system. Feel free to have a stab at it yourself and share the knowledge!
 
 
-4. If you experience file and folder permission issues then deal with them as per normal (i.e. CHMOD them) - if you are a linux user then you are almost garunteed permission issues. You will only need to adjust them the once
+4. If you experience file and folder permission issues then deal with them as per normal (i.e. CHMOD them) - if you are a linux user then you are almost guaranteed permission issues. You will only need to adjust them the once
 
 5. The password to log into the edit area is: qq obviously you will want to change this (on or around line 10 on the API_editor.php file - “$apiEditAreaPassword” variable)
 
