@@ -11,7 +11,7 @@ This is a no nonsense, lightweight, no frills RESTful API tool written for PHP.
 
 This tool will enable you to created, edit and handle API’s. 
 
-It has a build in API Key and Security Token handler system.
+It has a built in API Key and Security Token handler system.
 
 Furthermore it has an inbuilt version control system.
 
@@ -108,7 +108,7 @@ Windows users:
 …..Sorry but I’ve not had a chance to get all this set up and tested on a windows system. Feel free to have a stab at it yourself and share the knowledge!
 
 
-4. If you experience permissions issues then deal with them as per normal (i.e. CHMOD them)
+4. If you experience file and folder permission issues then deal with them as per normal (i.e. CHMOD them) - if you are a linux user then you are almost garunteed permission issues. You will only need to adjust them the once
 
 5. The password to log into the edit area is: qq obviously you will want to change this (on or around line 10 on the API_editor.php file - “$apiEditAreaPassword” variable)
 

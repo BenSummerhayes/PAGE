@@ -1480,7 +1480,8 @@ if(isset($_POST['this_form']) && $_POST['this_form'] == 'API_FORM_SUBMIT'){
 		    }else{
 
 		    	// output the response code
-		    	document.getElementById("jsonOutPut").innerHTML = 'error! the server responded with a "'+xhr.status+'" status (needs to be 200)';
+		    	document.getElementById("jsonOutPut").innerHTML = 'error! the server responded with a "'+xhr.status+'" status (needs to be 200)...this either means that the API you are testing does not exist or your .htacces file is missing or corrupt or there is an issue with your servers re-write settings or there are file/folder permission problems (you may need to chmod this parent folder and everything within it)';
+		    	
 		    }
 		};
 
