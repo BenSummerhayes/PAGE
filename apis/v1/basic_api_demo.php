@@ -30,7 +30,7 @@
 		$JsonReturnArray = array();
 
 		//dummy data for when in development mode
-		$dummy_data_array = array('test_var'=>'some_dummy_data');
+		$dummy_data_array = array('test_var'=>'here_is_some_dummy_data!');
 
 		//load these classes
 		require_once('./PAGE_CLASSES.php');
@@ -51,6 +51,9 @@
 		//If you are using API Keys and Security Tokens then the following two arrays hold all the information that is generated after successful checks (Add them to the "$JsonReturnArray" if you want to view them): $securityTokenCheckReturnArray & $apiKeyCheckReturnArray
 		$JsonReturnArray['SecTokenChecks'] = $securityTokenCheckReturnArray;
 		$JsonReturnArray['APIKeyChecks'] = $apiKeyCheckReturnArray;
+
+		// here is your test variable!
+		$JsonReturnArray['test_var']=$test_var;
 
 		//Here are some basic MYSQL query examples using PDO (Not yet looked into MSSQL). There are plenty of MYSQL PDO related tutorials on the internet:
 

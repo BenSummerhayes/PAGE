@@ -105,6 +105,8 @@ class DBConnections{
 	//this function creates a database selection list
 	public function db_connection_select_list(){
 
+		$selected='';
+
 		foreach ($this->connections as $value) {
 
 			//check it has a proper file name

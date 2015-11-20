@@ -6,4 +6,4 @@
 
 \f0\fs24 \cf0 placeholder so git doesn\'92t ignore this folder.\
 \
-feel free to delete this file}
+feel free to delete this file once you have other files in here}
