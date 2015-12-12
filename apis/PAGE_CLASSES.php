@@ -288,6 +288,7 @@ if(isset($DevMOde)){
 
 		// return this and stop the rest of the script from running
 		$JsonReturnArray['error']=$apiKeyCheckReturnArray['apiKeyCheckMsg'];
+		$JsonReturnArray['apiKeyCheckRsltCode']=$apiKeyCheckReturnArray['apiKeyCheckRsltCode'];
 
 		echo json_encode($JsonReturnArray);
 		
@@ -334,7 +335,8 @@ if(isset($DevMOde)){
 
 		// return this
 		$JsonReturnArray['error']=$securityTokenCheckReturnArray['secTokenCheckMsg'];
-
+		$JsonReturnArray['secTokenCheckRsltCode']=$securityTokenCheckReturnArray['secTokenCheckRsltCode'];
+		
 		echo json_encode($JsonReturnArray);
 		
 		die();
