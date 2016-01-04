@@ -234,7 +234,7 @@ class SecurityTokenCheck{
 				if($this->security_token_regen_checkbox=='1'){
 
 					// call this method
-					$this->new_token = $this->row['username'].'_'.$this->RegenerateSecurityToken();
+					$this->new_token = $this->row['user_id'].'_'.$this->RegenerateSecurityToken();
 					$this->ReturnArray['newSecToken'] = $this->new_token;
 
 					// update the db
